@@ -1,0 +1,19 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(160, 160, 160);
+  padding: 1rem;
+  margin: 0;
+}
+
+.FooterItems {
+  list-style: none;
+  font-size: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

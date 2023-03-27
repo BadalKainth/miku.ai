@@ -1,0 +1,90 @@
+.homeSection {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 80%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.7rem;
+  margin: 1rem 0 0 0;
+  color: rgb(50, 88, 192);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: #2ea111;
+}
+
+.chatBtn {
+  padding: 0.5rem;
+  background-color: #27b315;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chatBtn:hover {
+  background-color: #189408;
+}
+
+.chatImg {
+  margin: 2rem;
+  height: 17rem;
+  width: max-content;
+}
+
+@media screen and (min-width: 768px) {
+  .homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .chatImg {
+    height: 45rem;
+    width: auto;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .title {
+    font-size: 6rem;
+    margin: 1rem 0 0 0;
+    color: rgb(50, 88, 192);
+  }
+
+  h3 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+
+  span {
+    color: #2ea111;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .chatBtn {
+    font-weight: 600;
+    padding: 1.2rem 2rem;
+  }
+}
