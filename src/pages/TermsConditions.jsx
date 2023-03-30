@@ -2,28 +2,29 @@ import React from "react";
 import classes from "./TermsConditions.module.css";
 const TermsConditions = () => {
   return (
-    <section class={classes.TermsConditionSection}>
-      <div class={classes.TermsCondition}>
+    <section className={classes.TermsConditionSection}>
+      <div className={classes.TermsCondition}>
         <div id={classes.placeholders}>
-          <h2 classname={classes.SubHeaders}>
+          <h2 className={classes.SubHeaders}>
             <strong>Terms and Conditions</strong>
           </h2>
           <p>
             Welcome to{" "}
-            <span class="highlight preview_website_name">Miku.AI</span>!
+            <span className="highlight preview_website_name">Miku.AI</span>!
           </p>
           <p>
             These terms and conditions outline the rules and regulations for the
-            use of <span class="highlight preview_company_name">Miku.AI</span>'s
+            use of{" "}
+            <span className="highlight preview_company_name">Miku.AI</span>'s
             Website, located at{" "}
-            <span class="highlight preview_website_url">Website.com</span>.
+            <span className="highlight preview_website_url">Website.com</span>.
           </p>
           <p>
             By accessing this website we assume you accept these terms and
             conditions. Do not continue to use{" "}
-            <span class="highlight preview_website_name">Miku.AI</span> if you
-            do not agree to take all of the terms and conditions stated on this
-            page.
+            <span className="highlight preview_website_name">Miku.AI</span> if
+            you do not agree to take all of the terms and conditions stated on
+            this page.
           </p>
           <p>
             The following terminology applies to these Terms and Conditions,
@@ -47,9 +48,9 @@ const TermsConditions = () => {
           </h3>
           <p>
             We employ the use of cookies. By accessing{" "}
-            <span class="highlight preview_website_name">Miku.AI</span>, you
+            <span className="highlight preview_website_name">Miku.AI</span>, you
             agreed to use cookies in agreement with the{" "}
-            <span class="highlight preview_company_name">Miku.AI</span>'s
+            <span className="highlight preview_company_name">Miku.AI</span>'s
             Privacy Policy.
           </p>
           <p>
@@ -64,54 +65,55 @@ const TermsConditions = () => {
           </h3>
           <p>
             Unless otherwise stated,{" "}
-            <span class="highlight preview_company_name">Miku.AI</span> and/or
-            its licensors own the intellectual property rights for all material
-            on <span class="highlight preview_website_name">Miku.AI</span>. All
+            <span className="highlight preview_company_name">Miku.AI</span>{" "}
+            and/or its licensors own the intellectual property rights for all
+            material on{" "}
+            <span className="highlight preview_website_name">Miku.AI</span>. All
             intellectual property rights are reserved. You may access this from{" "}
-            <span class="highlight preview_website_name">Miku.AI</span> for your
-            own personal use subjected to restrictions set in these terms and
-            conditions.
+            <span className="highlight preview_website_name">Miku.AI</span> for
+            your own personal use subjected to restrictions set in these terms
+            and conditions.
           </p>
           <p>You must not:</p>
           <ul>
             <li>
               Republish material from{" "}
-              <span class="highlight preview_website_name">Miku.AI</span>
+              <span className="highlight preview_website_name">Miku.AI</span>
             </li>
             <li>
               Sell, rent or sub-license material from{" "}
-              <span class="highlight preview_website_name">Miku.AI</span>
+              <span className="highlight preview_website_name">Miku.AI</span>
             </li>
             <li>
               Reproduce, duplicate or copy material from{" "}
-              <span class="highlight preview_website_name">Miku.AI</span>
+              <span className="highlight preview_website_name">Miku.AI</span>
             </li>
             <li>
               Redistribute content from{" "}
-              <span class="highlight preview_website_name">Miku.AI</span>
+              <span className="highlight preview_website_name">Miku.AI</span>
             </li>
           </ul>
           <p>This Agreement shall begin on the date hereof.</p>
           <p>
             Parts of this website offer an opportunity for users to post and
             exchange opinions and information in certain areas of the website.{" "}
-            <span class="highlight preview_company_name">Miku.AI</span> does not
-            filter, edit, publish or review Comments prior to their presence on
-            the website. Comments do not reflect the views and opinions of{" "}
-            <span class="highlight preview_company_name">Miku.AI</span>,its
+            <span className="highlight preview_company_name">Miku.AI</span> does
+            not filter, edit, publish or review Comments prior to their presence
+            on the website. Comments do not reflect the views and opinions of{" "}
+            <span className="highlight preview_company_name">Miku.AI</span>,its
             agents and/or affiliates. Comments reflect the views and opinions of
             the person who post their views and opinions. To the extent
             permitted by applicable laws,{" "}
-            <span class="highlight preview_company_name">Miku.AI</span> shall
-            not be liable for the Comments or for any liability, damages or
-            expenses caused and/or suffered as a result of any use of and/or
+            <span className="highlight preview_company_name">Miku.AI</span>{" "}
+            shall not be liable for the Comments or for any liability, damages
+            or expenses caused and/or suffered as a result of any use of and/or
             posting of and/or appearance of the Comments on this website.
           </p>
           <p>
-            <span class="highlight preview_company_name">Miku.AI</span> reserves
-            the right to monitor all Comments and to remove any Comments which
-            can be considered inappropriate, offensive or causes breach of these
-            Terms and Conditions.
+            <span className="highlight preview_company_name">Miku.AI</span>{" "}
+            reserves the right to monitor all Comments and to remove any
+            Comments which can be considered inappropriate, offensive or causes
+            breach of these Terms and Conditions.
           </p>
           <p>You warrant and represent that:</p>
           <ul>
@@ -136,7 +138,7 @@ const TermsConditions = () => {
           </ul>
           <p>
             You hereby grant{" "}
-            <span class="highlight preview_company_name">Miku.AI</span> a
+            <span className="highlight preview_company_name">Miku.AI</span> a
             non-exclusive license to use, reproduce, edit and authorize others
             to use, reproduce and edit any of your Comments in any and all
             forms, formats or media.
@@ -191,8 +193,8 @@ const TermsConditions = () => {
             or to our accredited businesses; (b) the organization does not have
             any negative records with us; (c) the benefit to us from the
             visibility of the hyperlink compensates the absence of{" "}
-            <span class="highlight preview_company_name">Miku.AI</span>; and (d)
-            the link is in the context of general resource information.
+            <span className="highlight preview_company_name">Miku.AI</span>; and
+            (d) the link is in the context of general resource information.
           </p>
           <p>
             These organizations may link to our home page so long as the link:
@@ -205,11 +207,12 @@ const TermsConditions = () => {
             If you are one of the organizations listed in paragraph 2 above and
             are interested in linking to our website, you must inform us by
             sending an e-mail to{" "}
-            <span class="highlight preview_company_name">Miku.AI</span>. Please
-            include your name, your organization name, contact information as
-            well as the URL of your site, a list of any URLs from which you
-            intend to link to our Website, and a list of the URLs on our site to
-            which you would like to link. Wait 2-3 weeks for a response.
+            <span className="highlight preview_company_name">Miku.AI</span>.
+            Please include your name, your organization name, contact
+            information as well as the URL of your site, a list of any URLs from
+            which you intend to link to our Website, and a list of the URLs on
+            our site to which you would like to link. Wait 2-3 weeks for a
+            response.
           </p>
           <p>Approved organizations may hyperlink to our Website as follows:</p>
           <ul>
@@ -223,8 +226,8 @@ const TermsConditions = () => {
           </ul>
           <p>
             No use of{" "}
-            <span class="highlight preview_company_name">Miku.AI</span>'s logo
-            or other artwork will be allowed for linking absent a trademark
+            <span className="highlight preview_company_name">Miku.AI</span>'s
+            logo or other artwork will be allowed for linking absent a trademark
             license agreement.
           </p>
           <h3 className={classes.SmallHeaders}>
