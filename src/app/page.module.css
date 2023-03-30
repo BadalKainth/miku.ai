@@ -17,11 +17,11 @@
   color: rgb(50, 88, 192);
 }
 
-h3 {
+.subtitle {
   font-size: 1.5rem;
 }
 
-span {
+.highlight {
   color: #2ea111;
 }
 
@@ -69,16 +69,12 @@ span {
     color: rgb(50, 88, 192);
   }
 
-  h3 {
+  .subtitle {
     font-size: 3.5rem;
     margin: 0;
   }
 
-  span {
-    color: #2ea111;
-  }
-
-  p {
+  .information > p {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }

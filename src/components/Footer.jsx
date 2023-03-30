@@ -1,11 +1,8 @@
-import React from "react";
 import classes from "./Footer.module.css";
-import { Link, useLocation } from "react-router-dom";
+import Link from "next/link";
 
 const Footer = () => {
-  const { pathname } = useLocation();
-
-  const allLinks = [
+  const links = [
     {
       name: "Home",
       to: "/",
@@ -20,14 +17,12 @@ const Footer = () => {
     },
   ];
 
-  const links = allLinks.filter((l) => l.to !== pathname);
-
   return (
     <>
       <ul className={classes.Footer}>
         {links.map((link) => (
           <li key={link.to} className={classes.FooterItems}>
-            <Link to={link.to}>{link.name}</Link>
+            <Link href={link.to}>{link.name}</Link>
           </li>
         ))}
       </ul>
